@@ -6,3 +6,14 @@ url: "https://triyasmkom.github.io" # the base hostname & protocol for your site
 
 markdown: kramdown
 theme: minima
+
+# Add defaults
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
