@@ -3,7 +3,17 @@ layout: default
 title: Home
 ---
 
-# Welcome to Triyas Hevianto Saputro
-This is a website created using GitHub Pages and Jekyll.
-
-![Deskripsi Gambar](/assets/images/tiger.jpeg)
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="/assets/images/tiger.jpeg" class="card-img-top" alt="Image">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
